@@ -1,0 +1,457 @@
+ /*--------------------------BASES------------------------------------------*/
+ /*----Cores:
+ Golden Pollen - #FFC857 
+ Carbon Black - #1C1C1C
+ Burnt Caramel - #BD632F
+ Ghost White - #FAFAFF
+
+ Fundo Dark: #0d0d0d (Quase preto, mas suave)
+
+  Fundo Light: #f4f1ea (Cor de papel antigo/creme)
+
+  Dourado Guinness: #cfa76e ou #d4af37
+
+  Texto Dark: #1a1a1a
+
+ */
+ body  html{
+        margin: 0 0 0 0;
+        background-color: #f4f1ea;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+
+    h1, h2, h3, h4, h5{
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 2vh;
+      margin-top: 2vh;
+
+    }
+
+    p{
+      font-family: 'Lato', sans-serif;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #444;
+      margin-bottom: 2vh;
+    }
+
+/*--------------------GERAIS---------------------*/
+
+.btn {
+        background-color: #FFC857 !important;
+        margin-left: 10px;
+        border-color: #FFC857 !important;
+        color: #1C1C1C !important;
+
+    }
+
+.btn:hover {
+    background-color: #ffc75785 !important;
+    color: #1C1C1C !important;
+    border-color: #FFC857 !important;
+}
+
+.page-spacer {
+
+  padding-top: 6rem;
+  min-height: 100vh;
+}
+/* CSS */
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+    
+/*-------------------------------------------
+------------------NAV-----------------------
+-------------------------------------------*/  
+    #nav-bar-custom {
+        
+        justify-content: space-between;
+        box-shadow: 0 2px 4px #1C1C1C ;
+        padding: 10px 20px;
+        background-color: #1c1c1cc7 !important;
+      
+    }    
+
+
+    #nav-bar-custom .nav-link {
+        color: #f4f1ea !important;
+        font-weight: bold;
+        font-size: 15px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+
+    #nav-bar-custom .nav-link:hover {
+        color: #FFC857!important;
+        
+    }
+
+    ul { 
+    
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    width: auto;
+    text-align: center;
+    flex: 1;
+    }
+
+    li { 
+    display: table-cell; 
+    position: relative; 
+    padding: 15px 0;
+    
+    }
+
+    a .nav-link {
+    color: #fff;
+    text-decoration: none; 
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+    }
+
+    .nav-link:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    }
+
+    .nav-link:hover:after { 
+    width: 100%; 
+    left: 0; 
+    }
+
+    #search-btn-nav {
+        margin-left: 10px;
+        background-color: transparent !important;
+        border-color: #FFC857 !important;
+        color: #FFC857 !important;
+
+    }
+    #search-btn-nav:hover {
+        background-color: #FFC857 !important;
+        color: #1C1C1C !important;
+        border-color: #FFC857 !important;
+    }
+
+    @media screen and (max-height: 300px) {
+        ul {
+            margin-top: 40px;
+        }
+    }
+    
+
+   
+ #search-bar .form-inline {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.5rem; 
+}
+
+#search-bar .form-control {
+  flex: 1; 
+  min-width: 0; /
+}
+
+#search-bar .btn {
+  flex-shrink: 0; 
+  white-space: nowrap; 
+}
+
+
+
+
+/*-------------------------------------------
+------------------INTROHEADING-----------------------
+-------------------------------------------*/ 
+.video-background {
+          position: relative;
+          width: 100%;
+          height: 100vh; /* Ocupar toda a altura do ecrã */
+          overflow: hidden;
+
+} 
+
+      .vid-mp4 {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+          min-height: 100%;
+          object-fit: cover; /* Garantir que o vídeo cobre toda a área */
+        z-index: -1;
+      }
+
+.overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1c21; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; 
+    padding: 20px;
+}
+
+    .overlay-text h1 {
+        font-weight: 700 !important;
+        color: #FFC857; 
+        text-shadow: 2px 2px 4px #1C1C1C; 
+    }
+
+    .overlay-text p {
+        font-size: 1.5rem;
+        color: #f0f0f0;
+        text-shadow: 1px 1px 3px #1C1C1C;
+    }
+
+
+/*-------------------------------------------
+-----------------ABOUTSTOUT----------------------         
+-------------------------------------------*/ 
+
+
+/*1. historia da cerveja*/
+
+.cont-hist-beer{
+  height: 100vh;
+  color: #0d0d0d !important;
+  background-color: #f4f1ea !important;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  position: relative;
+}
+
+.cont-hist-beer img {
+  z-index: 5;
+  filter: drop-shadow(0 10px 20px rgba(5, 5, 5, 0.175));
+}
+
+.cont-hist-beer hr {
+  color: #cfa76e ; 
+  opacity: 1;
+}
+
+.cont-hist-beer p{
+  color: #0d0d0d !important;
+}
+
+/*2. stout-beer*/
+
+.stout-beer {
+  height: 100vh;
+  background-color: #0d0d0d;
+  color: #f4f1ea !important;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  position: relative;
+}
+
+.stout-beer img {
+  z-index: 5;
+  filter: drop-shadow(0 10px 20px rgba(255, 255, 255, 0.175));
+}
+
+.stout-beer p{
+  color: #f4f1ea !important;
+}
+
+.stout-beer hr {
+  color: #cfa76e ; 
+  opacity: 1;
+}
+
+/*3. sections*/
+
+.section {
+  padding: 20px;
+  margin: auto;
+  width: 100vw;
+  text-align: center;
+}
+
+.section ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1vw;
+  padding: 0;
+  list-style-type: none;
+}
+
+.section li {
+  width: 280px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #0d0d0dce;
+  color: #f4f1ea;
+  border: 1px solid #cfa76e;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.section li:hover {
+  transform: translateY(-5px);
+  background-color: #1f0d02df;
+  border-color: #FFC857;
+  box-shadow: 0 10px 20px #1C1C1C;
+}
+
+.section li strong {
+  display: block;
+  color: #FFC857;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+
+/*-------------------------------------------
+-----------------ADDBEER----------------------         
+-------------------------------------------*/ 
+
+.form-onAdd-Beer{
+  margin: "20px"; 
+  padding: "20px"; 
+  border: "2px dashed gray";
+  border-radius: "10px";
+}
+
+/*-------------------------------------------
+-----------------CARD----------------------         
+-------------------------------------------*/ 
+
+/* Cards individuais */
+.result-card {
+  background: #f4f1ea;
+  border: 1px solid #f4f1ea;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+  box-shadow: 0 2px 8px #1C1C1C;
+}
+
+.result-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px #1C1C1C;
+}
+
+/* Imagem do card */
+.result-card img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+  display: block;
+}
+
+
+/*-------------------------------------------
+-----------------STOUTCATALOG----------------------         
+-------------------------------------------*/ 
+
+
+/*-------------------------------------------
+-----------------BEERDETAIL----------------------         
+-------------------------------------------*/ 
+
+.col-img{
+  width: 100%; 
+  height: 100%; 
+  object-fit: "cover" ; 
+  min-height: "400px";
+}
+
+.img-recipe{
+  width: 80px; 
+  height: 80px; 
+  border-radius: 50%; 
+  object-fit: "cover";
+}
+
+/*-------------------------------------------
+-----------------SEGESTIONS----------------------         
+-------------------------------------------*/ 
+
+.img-beer-sug{
+  height: 80px;
+  object-fit: contain;
+}
+
+.rounded-circle{
+  width: 80px;
+  height: 80px; 
+  object-fit:"cover";
+}
+
+
+
+/*-------------------------------------------
+------------------FOOTER-----------------------         
+-------------------------------------------*/  
+    footer {
+        color: #f4f1ea;
+        text-align: center;
+    }
+
+    footer a {
+        color: #FFC857;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+    .container-footer {
+        
+        padding: 20px 0;
+        background-color: #1C1C1C;
+
+       
+    }
