@@ -6,7 +6,7 @@ export default function AboutStout(){
 
         <div className="cont-hist-beer">
           <h1>HISTÓRIA DA <br /> CERVEJA <hr /></h1>
-          <img src="src\assets\marzen.png" alt="" className="img-ilustrativo" />
+          <img src="../assets/marzen.png" alt="" className="img-ilustrativo" />
           <p>A cerveja é uma das bebidas alcoólicas mais antigas da humanidade, com origens que remontam a cerca de 5.000 a.C. na Mesopotâmia, região correspondente ao atual Iraque. 
             <br />
             Os sumérios foram os primeiros a registrar receitas e práticas de produção, utilizando cevada fermentada, e consideravam a bebida tão importante que dedicaram hinos à deusa Ninkasi, padroeira da cerveja. Ao longo dos séculos, a cerveja espalhou-se pelo Egito, Grécia e Europa, sendo aprimorada por monges medievais que desenvolveram técnicas de fermentação mais consistentes e começaram a adicionar lúpulo, que conferia sabor e ajudava na conservação. Com a Revolução Industrial, a produção de cerveja tornou-se mais padronizada e acessível, permitindo o surgimento das grandes cervejarias modernas, mas mantendo tradições e estilos que refletem séculos de história cultural e social.</p>
@@ -15,7 +15,7 @@ export default function AboutStout(){
         {/* historia da stout */}
         <div className="stout-beer">
             <h1>STOUT <br />  <hr />A CERVEJA IRLANDESA</h1>
-            <img src="src\assets\68116fafcb14f3c98a484bf3_November Test1.webp" alt="" />
+            <img src="../assets/68116fafcb14f3c98a484bf3_November Test1.webp" alt="" />
             <span>
             <h5 className="lead">A cerveja escura e robusta, famosa pelos seus sabores intensos.</h5>
             <br />
